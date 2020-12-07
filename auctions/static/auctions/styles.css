@@ -1,3 +1,85 @@
 body {
-    padding: 10px;
+    padding: 5px;
 }
+body {
+    padding: 5px;
+}
+#card-listings{
+    background-color: #DCDCDC;
+    margin-left: 1%;
+    margin-top:4%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.jumbotron{
+  margin: 2px;
+  padding: 2px;
+}
+.nonlayout {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.navbar-custom {
+    background-color: #FFC433;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: 3371FF;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: 3371FF;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+.bg-navbar {
+    background: #C4D825;
+}
+H1, H2 {
+  color: blue;
+  font-weight:bold;
+}
+
+
+
+nav#site-navigation, .main-navigation .menu > li {
+    background-color: blue;
+}
+#navbarTex{
+  color: blue;
+  font-weight:bold;
+  background-color: #005587;
+}
+#navbar-toggler {
+  color: blue;
+  font-weight:bold;
+  background-color: #005587;
+}
+#navbar-brand {
+  color: blue;
+  font-weight:bold;
+  background-color: #005587;
+}
+.navbar nav {
+  color: blue;
+  font-weight:bold;
+  background-color: #005587;
+}
+
+
+#nav {
+    position: relative;
+    left: -90px;
+    background-color: #7777777; /*Whatever color you want goes here, but in Hexadecimal form*/
+}
+#nav {
+    position: relative;
+    left: -90px;
+    background-color: #7777777; /*Whatever color you want goes here, but in Hexadecimal form*/
+    color: #1122cc; /*The color of your font also goes here, but in hexadecimal form*/
+}
+
