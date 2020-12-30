@@ -11,7 +11,7 @@
         <!-- Title -->
         <h2 class="card-title h2">ACTIVE LISTINGS</h2>
         <!-- Subtitle -->
-        <p class="black-text my-4 font-weight-bold">These are the Active Listings available in {{categ}} category.</p>
+        <p class="black-text my-4 font-weight-bold"> Active Listings available in {{categ}} category.</p>
         <br>
         <!-- Grid row -->
         <div class="row d-flex justify-content-center">
@@ -19,7 +19,7 @@
             <div class="col-xl-7 pb-2">
                 {% if empty %}
                     <br>
-                    <img src="../../static/auctions/img/foractive.svg" alt="indeximage" style="height: 350px;" class="embed-responsive">
+
                     <br> <br> <br>
                     <div>No Listing Found</div>
                 {% else %}
@@ -29,7 +29,7 @@
                         <div class="card card-cascade" >
                             <!-- Card image -->
                             <div class="view view-cascade overlay " >
-                                <img class="card-img-top" src="{{product.image_link}}" alt="Card image cap" style="height: 200px;">
+                                <img class="card-img-top" src="{{product.image_link}}" alt="Card image cap" style="height: 350px; width: 350px; float:center;">
                                 <a>
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
