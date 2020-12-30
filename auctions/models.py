@@ -62,3 +62,5 @@ class Alllisting(models.Model):
     title = models.CharField(max_length=64)
     description = models.TextField()
     link = models.CharField(max_length=64,default=None,blank=True,null=True)
+
+    
