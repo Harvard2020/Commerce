@@ -19,3 +19,4 @@ urlpatterns = [
     path("closebid/<int:product_id>", views.closebid, name="closebid"),
     path("closedlisting", views.closedlisting, name="closedlisting")
 ]
+
