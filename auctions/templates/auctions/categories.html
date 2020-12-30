@@ -1,27 +1,27 @@
 {% extends "auctions/layout.html" %}
 
 {% block body %}
-    <br>
+    <br><br>
     <!-- Jumbotron -->
     <div class="jumbotron text-center mx-2 mb-5">
 
         <!-- Title -->
-        <h2 class="card-title h2">CATEGORIES</h2>
+        <h2 class="card-title h2">LISTING BY CATEGORY</h2>
         <!-- Subtitle -->
-        <p class="my-4 h6">Select a Category to view Listings in that category.</p>
+        <p class="my-4 h5">**Select a Category to view Listings**</p>
         <br> <br>
-        <img src="../../static/auctions/img/forcategories.svg" alt="indeximage" style="height: 350px;" class="embed-responsive"> <br> <br> <br> 
+
         <!-- Grid row -->
         <div class="row d-flex justify-content-center">
             <!-- Grid column -->
-            <div class="col-xl-7 pb-2">
-                <ul class="list-group">
-                    <a href="{% url 'category' 'fashion' %}"><li class="list-group-item"><i class="fas fa-tshirt mr-5"></i> Fashion</li></a>
-                    <a href="{% url 'category' 'tools' %}"><li class="list-group-item"><i class="fas fa-gavel mr-5"></i> Tools</li></a>
-                    <a href="{% url 'category' 'toys' %}"><li class="list-group-item"><i class="fas fa-dice mr-5"></i> Toys</li></a>
-                    <a href="{% url 'category' 'electronics' %}"><li class="list-group-item"><i class="fas fa-laptop mr-5"></i> Electronics</li></a>
-                    <a href="{% url 'category' 'accessories' %}"><li class="list-group-item"><i class="fas fa-headset mr-5"></i> Accessories</li></a>
-                    <a href="{% url 'category' 'books' %}"><li class="list-group-item"><i class="fas fa-book-open mr-5"></i> Books</li></a>
+            <div class="col-xl-4 pb-2" styles="color:blue; font-size:20px; { font-size: 2em }  font-weight:bold">
+                <ul class="list-group" styles="color:blue; { font-size: 2em }  font-weight:bold">
+                    <a styles="color:blue; font-size:20px; { font-size: 2em }  font-weight:bold" href="{% url 'category' 'fashion' %}"><li class="list-group-item" styles="color:blue; font-weight:bold"><i class="fas fa-tshirt mr-5"></i> Fashion</li></a>
+                    <a styles="color:blue; font-weight:bold" href="{% url 'category' 'tools' %}"><li class="list-group-item" styles="color:blue; font-weight:bold"><i class="fas fa-gavel mr-5"></i> Tools</li></a>
+                    <a styles="color:blue; font-weight:bold" href="{% url 'category' 'toys' %}"><li class="list-group-item" styles="color:blue; font-weight:bold" ><i class="fas fa-dice mr-5" ></i> Toys</li></a>
+                    <a styles="color:blue; font-weight:bold" href="{% url 'category' 'electronics' %}"><li class="list-group-item" styles="color:blue; font-weight:bold"><i class="fas fa-laptop mr-5"></i> Electronics</li></a>
+                    <a styles="color:blue; font-weight:bold" href="{% url 'category' 'accessories' %}"><li class="list-group-item" styles="color:blue; font-weight:bold"><i class="fas fa-headset mr-5"></i> Accessories</li></a>
+                    <a styles="color:blue; font-weight:bold" href="{% url 'category' 'books' %}"><li class="list-group-item" styles="color:blue; font-weight:bold"><i class="fas fa-book-open mr-5"></i> Books</li></a>
                 </ul>
             </div>
             <!-- Grid column -->
