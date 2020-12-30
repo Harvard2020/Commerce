@@ -342,3 +342,4 @@ def closedlisting(request):
         "products": winners,
         "empty": empty
     })
+
