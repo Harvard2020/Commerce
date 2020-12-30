@@ -8,16 +8,16 @@
     <!-- Jumbotron -->
     <div class="jumbotron text-center">
         <!-- Title -->
-        <h2 class="card-title h2">CLOSED LISTINGS</h2>
+        <h2 class="card-title h2">CLOSED <--> LISTINGS</h2>
         <!-- Subtitle -->
-        <p class="black-text my-4 font-weight-bold">These are the Listings thar are closed by the seller and you can see the winners along with the final bid here.</p>
+        <p class="black-text my-4 font-weight-bold">Listings of closed items by sellers. You can see winners and final bids.</p>
         <!-- Grid row -->
         <div class="row d-flex justify-content-center">
             <!-- Grid column -->
             <div class="col-xl-7 pb-2">
                 {% if empty %}
                     <br>
-                    <img src="../../static/auctions/img/forclosed.svg" alt="indeximage" style="height: 350px;" class="embed-responsive">
+
                     <br> <br> <br>
                     <h3>No Closed Listings available</h3>
                 {% else %}
@@ -49,3 +49,4 @@
     <!-- Jumbotron -->
 {% endblock %}
 
+        
