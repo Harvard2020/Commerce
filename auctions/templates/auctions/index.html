@@ -3,18 +3,23 @@
 {% block body %}
     <div class="jumbotron text-center">
 
-        <h2><strong; style="color: blue;  margin: 0px; padding: 0px; font-weight:bold">Welcome To Online Auctions</strong></h2>
-        <center>
-        <img src="../../static/auctions/img/forindex.svg" alt="indeximage" style="height: 18%;width:18%" class="embed-responsive"> <br> <br> <br>
-        <p class="lead" style= "align:justify; float:center; font-weight:bold">In this auction you can post auction listings, see products, place bids, comment on listings, add listings to a watchlist. You can also add and sell a product in CreateListing, and fill all details to be seen by other users</p>
-        </center><br>
+        <h2><strong; style="color: blue; float-center margin: 0px; padding:0px; font-weight:bold">Welcome To Online Auctions</strong></h2>
+
+         <br> <br> <br><br><br>
+        <p class="lead" style= "float-left; color:blue; font-size: 25px; font-weight:bold">In this auction you can: </p>
+        <p class="lead" style= "float-left; font-weight:bold">- Post auction listings, see products, place bids, comment on listings</p>
+        <p class="lead" style= "float-left; font-weight:bold">- Add listings to a watchlis, fill all details to be seen by other users and sell a product in CreateListing</p>
+
+        <br> <br> <br><br><br>
 
         {% if user.is_authenticated %}
-            <a styles="color:blue; font-weight:bold" href="{% url 'activelisting' %}" class="btn btn-primary btn-sm">Active Listings</a>
-            <a styles="color:blue; font-weight:bold"  href="{% url 'createlisting' %}" class="btn btn-primary btn-sm">Create Listings</a>
+            <a styles="color:blue; margin: 0px; padding:0px; font-weight:bold" href="{% url 'activelisting' %}" class="btn btn-primary btn-Lg">Active Listings</a>
+            <a styles="color:blue; margin: 0px; padding:0px; font-weight:bold"  href="{% url 'createlisting' %}" class="btn btn-primary btn-Lg">Create Listings</a>
         {% else %}
-            <a href="{% url 'register' %}" class="btn btn-warning btn-lg">Register</a>
-            <a href="{% url 'login' %}" class="btn btn-success btn-lg">Login</a>
+        <a styles="color:blue; margin: 0px; padding:0px; font-weight:bold" href="{% url 'register' %}" class="btn btn-primary btn-Lg">Register</a>
+        <a styles="color:blue; margin: 0px; padding:0px; font-weight:bold"  href="{% url 'login' %}" class="btn btn-primary btn-Lg">login</a>
+
         {% endif %}
     </div>
 {% endblock %}
+
