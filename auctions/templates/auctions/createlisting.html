@@ -8,17 +8,17 @@
 
         <!-- Jumbotron -->
         <div class="jumbotron text-center lighten-4">
-
+<br>
             <!-- Title -->
-            <br><h1><strong>CREATE LISTING</strong></h1> <br> <br>
-            <br>
-            <img src="../../static/auctions/img/forcreate.svg" alt="indeximage" style="height: 350px;" class="embed-responsive">
-            <br> <br> <br>
-            <!-- <hr class="my-4 pb-2"> -->
-    
+            <br> <h1 style="color:blue; font-weight:bold ><strong>CREATE LISTING</strong></h1> <br>
+
+<br>
+
+            <!-- <hr class="my-4 pb-2"> --->CREATE your LISTING --->
+<br>
             <!-- Grid row -->
             <div class="text-left">
-    
+
                 <form action="{% url 'createlisting' %}" method="POST">
                     {% csrf_token %}
                     <div class="form-group">
@@ -52,3 +52,4 @@
 
 {% endblock %}
 
+                    
